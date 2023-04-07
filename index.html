@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Codecademy | Color For UI</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1 user-scalable=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+</head>
+<body>
+
+<!-- Site Wide Header -->
+<header role="banner" aria-label="site-wide-navigation" class="site-header">
+    <div class="container">
+        <nav role="navigation" aria-label="navigation" class="site-header-nav">
+            <ul class="site-nav-left">
+                <li>
+                    <a href="#">
+                        <img src="https://content.codecademy.com/courses/learn-text-design/project%20images/logo.svg" alt="Reel Movie Reviews Logo" class="logo" />
+                    </a>
+                </li>
+            </ul>
+            <ul class="site-nav-mobile">
+                <li>
+                    <a href="#">
+                        <img src="https://content.codecademy.com/courses/learn-text-design/project%20images/icon-menu.svg" alt="Menu" />
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Site Main Content -->
+<main role="main" class="site-main">
+    <header aria-labelledby="page-title" class="clearfix site-main-header">
+        <div class="container">
+            <h1 id="page-title">Recently Added Reviews</h1>
+        </div>
+    </header>
+    <section role="region" aria-label="featured-movie-description" class="site-main-section featured-movie-section">
+        <div class="container">
+            <div class="section-header">
+                <p>Now Trending</p>
+            </div>
+            <div>
+                <img src="https://content.codecademy.com/courses/learn-text-design/project%20images/get-out.png" alt="Get Out Movie Cover" class="movie-description-img">
+                <div class="movie-description">
+                    <h2>Get Out</h2>
+                    <p><small>(2017)</small></p>
+                    <img src="https://content.codecademy.com/courses/learn-text-design/project%20images/4-point-5-stars.svg" alt="4.5 Star Review">
+                    <ul class="movie-description-stars" id="stars">
+                        <li class="stars-label"><b>Stars:</b></li>
+                        <li>Daniel Kaluuya,</li>
+                        <li>Allison Williams,</li>
+                        <li>Bradley Whitford</li>
+                        <li>
+                            <a href="#" class="button-button-primary-movie-description-button">See all...</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="movie-description-category">Horror, Mystery, Thriller</p>
+            <p>Now that Chris and his girlfriend, Rose, have reached the meet-the-parents milestone of dating, she invites him for a weekend getaway upstate with Missy and Dean. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he could have never imagined.</p>
+        </div>
+    </section>
+
+    <!-- User Reviews -->
+    <section role="region" aria-label="movie-reviews" class="site-main-section">
+        <div class="container">
+            <div class="review-header">
+                <p>Reviews for</p>
+                <p>Get Out</p>
+            </div>
+            <ul>
+                <li class="card">
+                    <div class="card-header clearfix">
+                        <div class="card-header-left">
+                            <h3>Michael Bonner</h3>
+                            <img src="https://content.codecademy.com/courses/learn-text-design/project%20images/4-point-5-stars.svg" alt="4.5 Star Review">
+                        </div>
+                        <img src="https://content.codecademy.com/courses/learn-text-design/project%20images/review-1.jpg" class="card-header-right" alt="Michael Bonner's Picture">
+                    </div>
+                    <p>Intense, thrilling, and very funny. One of the best "horror" movies I can remember.</p>
+                </li>
+                <li class="card">
+                    <div class="card-header clearfix">
+                        <div class="card-header-left">
+                            <h3>Spencer Macklin</h3>
+                            <img src="https://content.codecademy.com/courses/learn-text-design/project%20images/4-stars.svg" alt="4 Star Review">
+                        </div>
+                        <img src="https://content.codecademy.com/courses/learn-text-design/project%20images/review-1.jpg" class="card-header-right" alt="Spencer Macklin's picture">
+                    </div>
+                    <p>Very well wrote, talented actors, perfect! Big surprises, Very good film.</p>
+                </li>
+                <li class="card">
+                    <div class="card-header clearfix">
+                        <div class="card-header-left">
+                            <h3>Julie Kipper</h3>
+                            <img src="https://content.codecademy.com/courses/learn-text-design/project%20images/4-point-5-stars.svg" alt="4.5 Star Review">
+                        </div>
+                        <img src="https://content.codecademy.com/courses/learn-text-design/project%20images/review-3.jpg" class="card-header-right" alt="Julie Kipper's Picture">
+                    </div>
+                    <p>Twists and turn that will make you instantly want to see it again.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section role="region" aria-label="movie-review-preview" class="site-main-section">
+        <div class="container">
+            <div class="section-header">
+                <p>Also Trending</p>
+            </div>
+            <div class="movie-description-container">
+                <img src="https://content.codecademy.com/courses/learn-text-design/project%20images/daddys-home-2.jpg" alt="Daddy's Home 2 Cover" class="movie-description-img">
+                <div class="movie-description">
+                    <h2>Daddy's Home 2</h2>
+                    <p><small>(2017)</small></p>
+                    <img src="https://content.codecademy.com/courses/learn-text-design/project%20images/4-stars.svg" alt="4 Star Review">
+                    <a href="#" class="button movie-description-button">see reviews</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Site Wide Footer -->
+<footer role="contentinfo" class="footer">
+    <div class="container">
+        <nav role="navigation" class="clearfix">
+            <div class="footer-section">
+                <form role="form">
+                    <input type="email" placeholder="Search by movie title" class="footer-search-input">
+                    <input type="submit" value="Search All Movies" class="button button-primary footer-search-button">
+                </form>
+            </div>
+            <ul class="footer-section">
+                <li>
+                    <img src="https://content.codecademy.com/courses/learn-text-design/project%20images/logo.svg" alt="Reel Movie Reviews Logo" class="logo">
+                </li>
+                <li>
+                    <p><small>All Rights Reserved - David Nguyen| &copy; <time>2023</time></small></p>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,390 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+======================================== */
+
+/* 1. Global Styles
+======================================== */
+* {
+    box-sizing: border-box;
+}
+
+.featured-section-header {
+    color: #FFFFFF;
+}
+
+.movie-description-stars {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.stars-label {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+html {
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+
+/* 2. Typography Styles
+======================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 5px;
+    transition: font-size 0.25s ease;
+}
+
+h1 {
+    font-size: 37px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+
+p {
+    color: #414546;
+    font-family: 'Roboto', Georgia, serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    margin: 0 0 10px;
+}
+
+a {
+    color: #42A5F5;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+li {
+    color: #414546;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    list-style: none;
+}
+
+label {
+    color: #414546;
+    display: block;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+small {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.25;
+}
+
+/* 3. Structure Styles
+======================================== */
+.container {
+    margin: 0 auto;
+    max-width: 1160px;
+    padding: 0 15px;
+}
+
+
+/* 4. Modules Styles
+======================================== */
+
+/* Site Navigation */
+.site-header {
+    background-color: #1B1B1B;
+    padding: 20px 15px;
+    color: #414546;
+}
+
+.site-header-nav {
+    align-items: center;
+    display: flex;
+    color: #414546;
+}
+
+.site-nav-mobile {
+    margin-left: auto;
+}
+
+.site-nav-left .logo {
+    width: 120px;
+}
+
+/* Site Footer */
+.footer {
+    background-color: #1B1B1B;
+    margin: auto;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.footer-section {
+    margin: 15px;
+}
+
+.footer .logo {
+    margin-bottom: 5px;
+    width: 120px;
+}
+
+.footer p  {
+    color: #62A7B3;
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.footer-search-input {
+    background-image: url("https://content.codecademy.com/courses/learn-text-design/project%20images/icon-search.svg");
+    background-position: 29% center;
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 33%;
+}
+
+.footer-search-button {
+    border: none;
+    width: 100% !important;
+}
+
+
+/* 5. Component Styles
+======================================== */
+.button {
+    border-radius: 2px;
+    color: #1B1B1B;
+    display: inline-block;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: opacity 0.5s ease;
+}
+
+.button:hover {
+    opacity: 0.75;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.1);
+    margin: 20px 0px;
+    padding: 30px 30px 15px;
+}
+
+.card-header {
+    display: block;
+    margin-bottom: 15px;
+    color: #414546;
+}
+
+.card-header-left {
+    display: inline-block;
+    width: 70%;
+    color: #414546;
+}
+
+.card-header-left img {
+    margin: 10px 0px;
+    width: 60%;
+    color: #414546;
+}
+
+.card-header-right {
+    display: inline-block;
+    float: right;
+    width: 60px;
+    color: #414546;
+}
+
+input,
+select,
+textarea {
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    border: 1px solid #F2F3F5;
+    box-shadow: inset 1px 1px 3px 0 rgba(189,191,192,0.10);
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    height: 44px;
+    margin-bottom: 15px;
+    padding: 15px 45px;
+    transition: border-color 0.5s ease;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #A3A3A3;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    height: auto;
+    width: auto;
+}
+
+input:active,
+input:focus {
+    border: 1px solid #F1EB58;
+    outline: none;
+}
+
+
+/* 6. Page Styles
+======================================== */
+
+.site-main-section {
+    padding: 35px 0px;
+}
+
+.site-main-background {
+    background-color: #34474F;
+    bottom: 0;
+    display: block;
+    height: 600px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.site-main-header {
+    background-color: #62A7B3;
+    padding: 20px 0px;
+    text-align: center;
+    color: #414546;
+}
+
+.site-main-header h1 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    color: #414546;
+}
+
+.section-header {
+    margin-bottom: 20px;
+    color: #414546;
+}
+
+.section-header p {
+    border-bottom: 1px solid #62A7B3;
+    color: #1B1B1B;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    padding-bottom: 5px;
+    color: #414546;
+}
+
+.featured-movie-section {
+    background-color: #1B1B1B;
+    background-image: url("https://content.codecademy.com/courses/learn-text-design/project%20images/get-out-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.featured-movie-section h2,
+.featured-movie-section small,
+.featured-movie-section li,
+.featured-movie-section p {
+    color: #FFFFFF;
+}
+
+.movie-description-img,
+.movie-description {
+    display: inline-block;
+    width: 47%;
+}
+
+.movie-description {
+    float: right;
+}
+
+.movie-description img {
+    width: 80%;
+}
+
+.movie-description-stars {
+    margin: 15px 0px;
+}
+
+.movie-description-button {
+    margin-top: 15px;
+}
+
+.movie-description-category {
+    border-bottom: 1px solid #62A7B3;
+    border-top: 1px solid #62A7B3;
+    letter-spacing: 2px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.review-header {
+    text-align: center;
+    color: #414546;
+}
+
+.review-header h2 {
+    text-transform: uppercase;
+    color: #414546;
+}
